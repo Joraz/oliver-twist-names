@@ -1,0 +1,21 @@
+{
+  "name": "oliver-twist-names",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Joraz/oliver-twist-names.git",
+  "author": "Dan Young <danieleyoung1984@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run build && yarn run serve",
+    "build": "./node_modules/.bin/tsc",
+    "serve": "node dist/index.js ../resources/oliver-twist.txt ../resources/titles.txt ../resources/first-names.txt ../resources/last-names.txt ../results.txt"
+  },
+  "dependencies": {
+    "name-counter": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
