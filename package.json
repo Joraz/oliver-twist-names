@@ -11,7 +11,7 @@
     "serve": "node dist/index.js ../resources/oliver-twist.txt ../resources/titles.txt ../resources/first-names.txt ../resources/last-names.txt ../results.txt"
   },
   "dependencies": {
-    "name-counter": "^1.0.1"
+    "name-counter": "1.0.3"
   },
   "devDependencies": {
     "@types/node": "^10.11.0",
